@@ -8,7 +8,7 @@ typedef enum kind_e
 	HEART,
 	CLUB,
 	DIAMOND
-}kind_t;
+} kind_t;
 
 /**
  * struct card_s - Playing card
@@ -19,7 +19,7 @@ typedef enum kind_e
  */
 typedef struct card_s
 {
-       	const char *value;
+	const char *value;
 	const kind_t kind;
 } card_t;
 
